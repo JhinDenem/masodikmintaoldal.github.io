@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap mintaoldal</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/e4b878c562.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- nabbar start-->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-primary fw-bold fs-4" href="#">H.K</a>
+      <div class="dropdown">
+        <button class="btn btn-primary btn-primary px-3" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Főoldal</a></li>
+          <li><a class="dropdown-item" href="#rolam">Rólam</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfólió </a></li>
+          <li><a class="dropdown-item" href="#skill">Készségek</a></li>
+          <li><a class="dropdown-item" href="#contact">Elérhetőség</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends-->
+
+
+  <!--header start-->
+
+
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="/img/profile.png" class="rounded-circle mw-100" alt="User">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm a</p>
+            <h1 class="text-primary text-uppercase fs-1 fw-bold">WebDesigner</h1>
+            <h2 class="fs-4">Krisztián Horváth</h2>
+            <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga quam quae
+              cumque. Saepe, debitis error. Enim hic a corrupti voluptatum voluptate atque! Eos sit libero culpa,
+              deserunt mollitia voluptates?</p>
+            <a href="#portfolio" class="btn btn-primary py-3 px-5 mt-4">My work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--header ends-->
+
+  <!--about start-->
+  <section class="about py-5" id="rolam">
+
+    <div class="container-lg py-4">
+      <div class="row justify-content-center ">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga quam quae
+              cumque. Saepe, debitis error. Enim hic a corrupti voluptatum voluptate atque! Eos sit libero culpa,
+              deserunt mollitia voluptates?</p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">100</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">90</h4>
+                <p class="text-muted">Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted">Positive Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center ">
+              <a href="#" class="btn px-3 btn-primary me-5 " download="/cv/horvath_krisztian_cv.pdf">Download CV</a>
+              <div class="social-links">
+                <a href="https://www.facebook.com/horvath.krisztian.9"" class="text-primary  fa-2x"><i class="fab fa-facebook-f "></i></a>
+                <a href="https://www.linkedin.com/in/krisztián-horváth-18181b238" class="text-primary mx-4 fa-2x"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/JhinDenem" class="text-primary  fa-2x"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Css</h3>
+            <div class="progress mb-3" style="height: 5px;">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Javascript</h3>
+              <div class="progress mb-3" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">Bootstrap</h3>
+                <div class="progress mb-3" style="height: 5px;">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-item mb-4">
+                  <h3 class="fs-6">WordPress</h3>
+                  <div class="progress mb-3" style="height: 5px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+  </section>
+
+
+
+  <!--about ends-->
+
+  <!--service start-->
+
+  <section class="services py-5" id="skill">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center ">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="servcie-item shadow-sm py-4 rounded bg-white">
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Web Development</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="servcie-item shadow-sm py-4 rounded bg-white">
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-2">Creative Design</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="servcie-item shadow-sm py-4 rounded bg-white">
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3 class="fs-5 py-2">Photoshop</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--service ends-->
+
+  <!--portfolio start-->
+
+  <section class="portfolio py-5" id="portfolio">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Latest Works</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <a href="https://jhindenem.github.io"><img src="/img/minta01.jpg" class="w-100 img-thumbnail hover-shadow" alt="portfolio item"></a>
+            <h3 class="text-capitalize fs-5 my-2">Html,Css,Javascript</h3>
+            <p class="mb-4"><a href="https://jhindenem.github.io" class="text-primary text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item bg-image hover-overlay hover-zoom hover-shadow ripple">
+            <img src="/img/minta02.jpg" class="w-100 " alt="portfolio item">
+            <a href="#">
+              <div class="mask" style="background-color: rgba(57, 192, 237, 0.2)"></div>
+            </a>
+            <h3 class="text-capitalize fs-5 my-2">Html,Css,Javascript</h3>
+            <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--portfolio ends-->
+
+  <!--Contact start-->
+  <section class="contact py-5 bg-white" id="contact">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-primary">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Email</h3>
+              <p class="text-muted">derek9522@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-primary">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Phone</h3>
+              <p class="text-muted">+36302440630</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-primary">
+            </div>
+            <div class="text ms-3">
+              <a class="icon fs-6" href="https://www.linkedin.com/in/krisztián-horváth-18181b238"><i class="fa fa-linkedin fa-3x"></i></a>
+              <a class="icon fs-6 mx-4" href="https://www.facebook.com/horvath.krisztian.9"><i class="fa fa-facebook fa-3x"></i></a>
+              <a class="icon fs-6 " href="https://github.com/JhinDenem"><i class="fa fa-github fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <form>
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <textarea type="text" rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary px-3">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact ends-->
+  <!--Footer start-->
+
+
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12 text-center text-muted my-0">
+          <p>Készítette Horváth Krisztián &copy; 2022</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!--Footer ends-->
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
