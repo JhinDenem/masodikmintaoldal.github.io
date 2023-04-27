@@ -1,1 +1,0 @@
-# masodikmintaoldal.github.io

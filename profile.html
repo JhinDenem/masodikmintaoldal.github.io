@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4b878c562.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="/images/logo.png" alt="Logó" class="logo"></a>         
+            <ul>
+                <li><img src="/images/notification.png" ></li>
+                <li><img src="/images/inbox.png" ></li>
+                <li><img src="/images/video.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="/images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <div class="pulse"></div>
+                <img src="/images/profile-pic.png">
+            </div>
+
+        </div>
+        <!-------------------Settings Menu----------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="/images/profile-pic.png">
+                    <div>
+                        <p>John Nick</p>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="/images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="/images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="/images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="/images/display.png" class="settings-icon">
+                    <a href="#">Display & Accsessibility <img src="/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="/images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="/images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ----------------Profile Page----------------------->
+
+    <div class="profile-container">
+        <img src="/images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="/images/profile.png" class="pd-img">
+                    <div>
+                        <h3>George Yuva</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="/images/member-1.png" >
+                        <img src="/images/member-2.png" >
+                        <img src="/images/member-3.png" >
+                        <img src="/images/member-4.png" >
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="/images/add-friends.png"> Friend</button>
+                <button type="button"><img src="/images/message.png" > Message</button><br>
+                <a href="#"><img src="/images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do anything! <img src="/images/feeling.png"> </p>
+                    <hr>
+                    <ul>
+                        <li><img src="/images/profile-job.png"> Director at 99media Ltd</li>
+                        <li><img src="/images/profile-study.png"> Studied an Amioty University</li>
+                        <li><img src="/images/profile-study.png"> Went to DPS Delhi</li>
+                        <li><img src="/images/profile-home.png"> Lives in Bangalore, India</li>
+                        <li><img src="/images/profile-home.png"> From Bangalore, India</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="/images/photo1.png"></div>
+                        <div><img src="/images/photo2.png"></div>
+                        <div><img src="/images/photo3.png"></div>
+                        <div><img src="/images/photo4.png"></div>
+                        <div><img src="/images/photo5.png"></div>
+                        <div><img src="/images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (20 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="/images/member-1.png"><p>Allison M</p></div>
+                        <div><img src="/images/member-2.png"><p>George Y</p></div>
+                        <div><img src="/images/member-3.png"><p>Page R</p></div>
+                        <div><img src="/images/member-4.png"><p>Tom D</p></div>
+                        <div><img src="/images/member-5.png"><p>Chris H</p></div>
+                        <div><img src="/images/member-6.png"><p>Sam F</p></div>
+                        <div><img src="/images/member-7.png"><p>Ryan G</p></div>
+                        <div><img src="/images/member-8.png"><p>Julia B</p></div>
+                        <div><img src="/images/member-9.png"><p>Adam R</p></div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="/images/profile-pic.png">
+                        <div>
+                            <p>John Nick</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="/images/live-video.png" >Live Video</a>
+                            <a href="#"><img src="/images/photo.png" >Photo^Video</a>
+                            <a href="#"><img src="/images/feeling.png" >Feeling/Activity</a>
+                        </div>
+    
+    
+                    </div>
+    
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/profile-pic.png">
+                            <div>
+                                <p>John Nick</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Lorem ipsum, dolor sit amet <span>consectetur adipisicing</span> elit. Doloribus provident doloremque atque consequatur possimus veniam aut explicabo eius excepturi cupiditate! Aliquam illo, amet soluta tempore numquam animi aliquid deleniti. Quia. <a href="#">#DesignHelps</a><a href="#"> #JhinDenem</a></p>
+                    <img src="/images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="/images/like-blue.png">120
+                            </div>
+                            <div>
+                                <img src="/images/comments.png">80
+                            </div>
+                            <div>
+                                <img src="/images/share.png">45
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/member-2.png">
+                            <div>
+                                <p>George Yuva</p>
+                                <span>June 23 2021, 16:34 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Lorem ipsum, dolor sit amet <span>consectetur adipisicing</span> elit. Doloribus provident doloremque atque consequatur possimus veniam aut explicabo eius excepturi cupiditate! Aliquam illo, amet soluta tempore numquam animi aliquid deleniti. Quia. <a href="#">#Karaoke</a><a href="#"> #Toronto</a></p>
+                    <img src="/images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="/images/like.png">167
+                            </div>
+                            <div>
+                                <img src="/images/comments.png">21
+                            </div>
+                            <div>
+                                <img src="/images/share.png">12
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/member-1.png">
+                            <div>
+                                <p>Alison Mina</p>
+                                <span>June 20 2021, 18:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Lorem ipsum, dolor sit amet <span>consectetur adipisicing</span> elit. Doloribus provident doloremque atque consequatur possimus veniam aut explicabo eius excepturi cupiditate! Aliquam illo, amet soluta tempore numquam animi aliquid deleniti. Quia. <a href="#">#Walk</a><a href="#"> #City</a></p>
+                    <img src="/images/feed-image-3.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="/images/like-blue.png">45
+                            </div>
+                            <div>
+                                <img src="/images/comments.png">12
+                            </div>
+                            <div>
+                                <img src="/images/share.png">34
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/member-3.png">
+                            <div>
+                                <p>Page Rose</p>
+                                <span>June 19 2021, 13:21 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Lorem ipsum, dolor sit amet <span>consectetur adipisicing</span> elit. Doloribus provident doloremque atque consequatur possimus veniam aut explicabo eius excepturi cupiditate! Aliquam illo, amet soluta tempore numquam animi aliquid deleniti. Quia. <a href="#">#Working</a><a href="#"> #Nevertied</a></p>
+                    <img src="/images/feed-image-4.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="/images/like-blue.png">321
+                            </div>
+                            <div>
+                                <img src="/images/comments.png">210
+                            </div>
+                            <div>
+                                <img src="/images/share.png">32
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="/images/member-6.png">
+                            <div>
+                                <p>Jean Wandel</p>
+                                <span>June 17 2021, 15:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Lorem ipsum, dolor sit amet <span>consectetur adipisicing</span> elit. Doloribus provident doloremque atque consequatur possimus veniam aut explicabo eius excepturi cupiditate! Aliquam illo, amet soluta tempore numquam animi aliquid deleniti. Quia. <a href="#">#Talk</a><a href="#"> #BrainStorm</a></p>
+                    <img src="/images/feed-image-5.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="/images/like-blue.png">120
+                            </div>
+                            <div>
+                                <img src="/images/comments.png">80
+                            </div>
+                            <div>
+                                <img src="/images/share.png">45
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more-btn">Load More</button>
+    
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        <p>Copyright 2023 - Jhin Denem protfolió project</p>
+    </div>
+
+
+
+    <script src="javaScript.js"></script>
+    
+</body>
+</html>
